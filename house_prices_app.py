@@ -34,7 +34,7 @@ page = st.sidebar.radio("Go To",("Homepage","Details","About"))
 
 if page == "Homepage":
     
-    image = Image.open(r'C:\Users\Adith\Desktop\Data Science_Excel R\Own Assignments\Regression House prices\house.jpg')
+    image = Image.open('house.jpg')
     st.image(image)
     
     st.write("In This app We are predicting the Sale price of Houses by analysing a lot of factors that would affect the SalePrice,this app gives you the value of the house according to the factors and conditions you are looking for ")
