@@ -14,9 +14,9 @@ import pickle
 from millify import prettify
 
 
-filename = (r"C://Users//Adith//Desktop//Data Science_Excel R//Own Assignments//Regression House prices//forest_model.sav")
-loaded_model = pickle.load(open(filename,'rb'))
-df = pd.read_csv(r"C:\Users\Adith\Desktop\Data Science_Excel R\Own Assignments\Regression House prices\\final_data.csv")
+
+loaded_model = pickle.load(open('forest_model.sav','rb'))
+df = pd.read_csv("final_data.csv")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 import warnings
