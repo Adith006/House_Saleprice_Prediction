@@ -110,7 +110,7 @@ elif page == "Details":
         YearRemodAdd = st.sidebar.number_input(label='Period Passed house remodeled from present (in years)',step =(1))
         MasVnrArea = st.sidebar.number_input(label ='Masonry area in (SqFt)',step =(1))
         BsmtUnfSF = st.sidebar.number_input(label='Incomplete basement In (SqFt)',step=(1))
-        LowQualFinSF = st.sidebar.number_input(label = 'Floors Finish low quality in (SqFt)',step = (1))
+        LowQualFinSF = st.sidebar.number_input(label = 'low quality floors in (SqFt)',step = (1))
         TotRmsAbvGrd = st.sidebar.selectbox('Total bedrooms in living room',('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15'))
         FireplaceQu = st.sidebar.selectbox('Quality of Fireplaces (Rating out of 5)',('0','1','2','3','4','5'))
         GarageYrBlt = st.sidebar.number_input('Period Passed Garage Built from present (in years)',step = (10))
